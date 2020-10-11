@@ -1,0 +1,95 @@
+.B1{
+   background-image: url(https://images.unsplash.com/photo-1531538512164-e6c51ea63d20?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=mimi-thian-jxUuXxUFfp4-unsplash.jpg)
+    
+}
+
+.B1{
+    background-size: cover;
+    background-position: center;
+}
+.headers{
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+    font-size: 3vmax;
+}
+.heading{
+   
+    color: whitesmoke;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 50px;
+    height: 20%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 350px;
+    padding-top: 10px ;
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid black  
+    
+}
+#internal1{
+    color: whitesmoke;
+    background-color: rgb(75, 0, 130, 0.45);
+    border-radius: 50px;
+    height: 40%;
+    width: 46%;
+    margin: 60px 3px 4px 10px;
+    font-size: 180%;
+    text-align: center;
+    border: 5px solid black  
+}
+#internal2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+    background-color: rgb(75, 0, 130, 0.6);
+    border-radius: 50px;
+    height: 40%;
+    width: 46%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    border: 5px solid black ;  
+}
+
+#internal1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.heading2{
+    color: whitesmoke;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 50px;
+    height: 33%;
+    width: 50%;
+    margin-top: 320px;
+    margin-left: 350px;
+    padding-top: 10px ;
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid black ;
+}
+.boom{
+    
+    padding-bottom: 25px;
+    font-family: 'Righteous', cursive;
+    font-size: 150%;
+}
+.boom :hover{
+    
+    color:rgb(75, 0, 130, 0.6);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.d-block,.w-100{
+    border-radius: 360px;
+    width: 90%;
+    height: 80%;
+   
+}
+.d-block,.w-100 :hover{
+    transform: scale(0.9);
+}
