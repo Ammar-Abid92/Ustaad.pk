@@ -1,0 +1,119 @@
+.B2{
+    
+    background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg); 
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+/* .first{
+    position: sticky;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vmax;
+} */
+.firsttable{
+    
+    height: 3%;
+    width: 99%;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgba(151, 68, 211,0.7);
+    
+}
+#logo{
+    font-size: 300%;
+}
+.bdr :hover{
+    cursor: pointer;
+    background-color: white; 
+    border-radius: 150px;
+    color: black;
+}
+a {
+    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    text-decoration: none;
+    padding: 1px 70px;
+}
+.Bar{
+
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    float: left;
+    padding: 20px;
+}
+.secondtable{
+    height: 15%;
+    width: 99%;
+    margin: 3px;
+    border-radius: 50px;
+    background-color: rgba(121, 119, 119, 0.5);
+}
+.Hey{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+    padding: 50px;
+    text-align: center;
+    border: 5px solid blue;
+    border-style: hidden;
+    font-size: 50px;
+
+}
+
+.container{
+
+    /* width: 60%; */
+    /* height: 70%; */
+    /* float: left; */
+    margin: 150px ;
+}
+   
+.firstp{
+    
+    font-family: 'Piedra', cursive;
+    font-size: 400%;
+    /* border: 15px solid rgba(62, 115, 126, 0.8); */
+    background-color:rgba(121, 119, 119, 0.5);
+    border-radius: 10px;
+    width: 97%;
+    height: 60%;
+    margin: 40px 20px;
+    text-decoration-line: overline;
+    line-height: 160%; 
+    color: indigo;
+    opacity: 1;
+    text-align: center;
+}
+#button1{
+    
+    width: 30%;
+    height: 20%;
+    border-radius: 50px;
+    margin: 40 20 40 50;
+}
+.ftr {
+    margin: 20px 0px;
+    background-color: rgba(23, 36, 39, 0.6);
+    border: double 10px brown;
+    width: 100%; height: 38%;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 65%;
+    color: seashell;
+
+}
+.showoff{
+    color: lightblue;
+    font-weight: lighter;
+    font-family: 'Righteous', cursive;
+}
+
+.ftr :hover{
+    
+background-color: white;
+border-radius: 100px;
+}
