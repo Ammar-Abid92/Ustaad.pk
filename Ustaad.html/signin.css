@@ -1,0 +1,117 @@
+.B6{
+    background-image: url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 50rem;
+    background-color: cadetblue;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .beauty{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.35rem; 
+}
+  h1{
+      color: whitesmoke;
+      box-shadow: 2rem 2rem 6.1rem hsl(276, 69%, 35%),
+      -2rem -2rem 6.1rem hsl(276, 69%, 35%);
+      border-radius: 0.5rem; 
+      padding-top: 0.4rem; 
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      background-color: slateblue;
+      width: 40%;
+      height: 3rem;
+      margin-top: 4rem;
+      margin-left: 25rem;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #dae4db;
+    color: black;
+    padding: 1.4rem 2rem;
+    margin: 0.8rem 0;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    width: 30%;
+    
+  }
+  #Login{
+    width: 30%;
+    margin-left: 29rem ;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+      background-color: dimgrey;
+      color: ghostwhite;
+    opacity: 0.9;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 650px) {
+    html{
+        font-size: 50%;
+
+    }
+    h1{
+        margin-top: 0rem;
+        margin-left: 0rem
+    }
+    .beauty{
+        margin-left: 0rem;
+    }
+
+  }
+  
