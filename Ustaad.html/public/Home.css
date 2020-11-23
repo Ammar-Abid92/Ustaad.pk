@@ -1,0 +1,93 @@
+
+.B4{
+    background-color: blueviolet;
+        /* The image used */
+        background-image: url("https://images.unsplash.com/photo-1588912914049-d2664f76a947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+        
+      
+        /* Set a specific height */
+        height: 50rem;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+html{
+    font-size: 62.5%;
+}
+.btn,.btn-link,.collapsed{
+    font-size: 2rem;
+}
+.TeacherList{
+    padding-top: 4rem;
+    margin: 8rem;
+    font-size: 2rem;
+    color: #df8634;
+    box-shadow: 2rem 2rem 6.1rem hsl(253, 89%, 45%),
+                -2rem -2rem 6.1rem hsl(253, 89%, 45%);
+    border-radius: 5rem;  
+   
+}
+#list{
+    color: rgb(161, 48, 161);
+    
+    border-radius: 5rem;  
+    margin-top: 6rem;
+    padding-left: 1rem;
+    font-size: 5rem;
+    margin-bottom: 4rem;          
+}
+.head1, .head2{
+    font-size: 2rem;
+    margin: 2rem;
+    height: 20rem;
+    padding-top: 5rem;
+    
+    background-color: hsl(0, 0%, 66%, 0.3);
+    border: dotted 0.2rem purple;
+    border-radius: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+p{
+    text-align: center;
+}
+.head2{
+    padding-top: 3.7rem;
+    font-size: 1.8rem;
+}
+#h1{
+    padding-left: 20rem;
+    font-family: 'Source Code Pro', monospace;
+
+}
+@media(max-width: 715px){
+    .head1, .head2{
+        font-size: 120%;
+        font-weight: bold;
+    }
+}
+@media(max-width:550px){
+    html{font-size: 50%;
+        font-weight: bold;
+        
+    }
+    #h1{
+        padding-left: 0rem;
+    }
+    #list{
+        font-size: 160%;
+    }
+}
+#what{
+    font-weight: bolder;
+    color: rgb(82, 27, 233);
+    font-size: 4rem;
+}
+#why{
+    font-weight: bolder;
+    color: rgb(82, 27, 233);
+    font-size: 4rem;
+}

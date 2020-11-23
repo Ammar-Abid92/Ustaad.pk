@@ -1,0 +1,136 @@
+.B1{
+   /* background-image: url(https://images.unsplash.com/photo-1531538512164-e6c51ea63d20?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=mimi-thian-jxUuXxUFfp4-unsplash.jpg) */
+    /* background-image: url(../img/main2.jpg); */
+    background-image: url("https://image.freepik.com/free-photo/business-women-signature-document_1388-90.jpg");
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    font-size: 62.5%;
+}
+
+.B1{
+    background-size: cover;
+    background-position: center;
+}
+.headers{
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+}
+.admin{
+     font-size: 2rem;
+     font-family: 'Righteous', cursive;
+     
+}
+.heading{
+   
+    color: whitesmoke;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 5rem;
+    height: 20%;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 35rem;
+    padding-top: 1rem ;
+    font-weight: bolder;
+    text-align: center;
+    border: 0.5rem solid black  
+    
+}
+#internal1{
+    color: whitesmoke;
+    background-color: rgb(75, 0, 130, 0.45);
+    border-radius: 5rem;
+    height: 40%;
+    width: 46%;
+    margin: 6rem 0.3rem 0.4rem 1rem;
+    font-size: 180%;
+    text-align: center;
+    border: 0.5rem solid black  
+}
+#internal2{
+    float: right;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    color: whitesmoke;
+    background-color: rgb(75, 0, 130, 0.6);
+    border-radius: 5rem;
+    height: 40%;
+    width: 46%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    border: 0.5rem solid black ;  
+}
+
+#internal1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.heading2{
+    color: whitesmoke;
+    background-color: rgba(75, 0, 130, 0.6);
+    border-radius: 5rem;
+    height: 33%;
+    width: 50%;
+    margin-top: 32rem;
+    margin-left: 35rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    border: 0.5rem solid black ;
+}
+.boom{
+    
+    padding-bottom: 2.5rem;
+    font-family: 'Righteous', cursive;
+    font-size: 150%;
+}
+.boom :hover{
+    
+    color:rgb(75, 0, 130, 0.6);
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.d-block,.w-100{
+    border-radius: 36rem;
+    width: 90%;
+    height: 80%;
+   
+}
+.d-block,.w-100 :hover{
+    transform: scale(0.9);
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:780px){
+    html{
+        font-size: 37%;
+    }
+    #internal2{
+        height: 22%;
+        width: 45%;
+    }
+    .heading{
+        height: 17%;
+        margin-left: 14rem;
+    }
+    #internal1{
+        height: 20%;
+        width: 45%;
+    }
+    .heading2{
+        height: 20%;
+        width: 45%;
+    }
+}

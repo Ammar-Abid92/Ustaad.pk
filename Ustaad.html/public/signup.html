@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <title>Sign In</title>
+  <link rel="shortcut icon" type="image/png" href="../img/hy.png">
+</head>
+
+<body class="B6">
+  <h1>Sign In</h1>
+<form method="GET">
+  <div id="Loggedin" class="container">
+    <label for="uname"><b class="beauty">Email Id</b></label>
+    <input id="email_field" type="text"  placeholder="Enter Email" name="uname" required>
+
+    <label for="psw"><b class="beauty">Password</b></label>
+    <input id="psw_field" type="password"  placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" id="Login" class="beauty">Login</button> <br>
+    <script>
+       var em = document.getElementById('email_field').Value;
+       var ps = document.getElementById('psw_field').Value;
+      window.alert("Successfully SignIn")
+    </script>
+
+    <input type="checkbox" checked="checked" name="remember" class="beauty"> Remember me
+
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</body>
+
+</html>

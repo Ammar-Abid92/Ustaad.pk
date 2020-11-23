@@ -1,0 +1,170 @@
+body{
+     background-image: url("https://wallpaperaccess.com/full/1771974.jpg");
+     background-color: rgb(205, 214, 214);
+    
+            /* Set a specific height */
+            
+      
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+        
+      
+html{
+    font-size: 62.5%;
+}
+
+/* .first{
+    position: sticky;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vmax;
+} */
+.firsttable{
+    
+    height: 3%;
+    width: 99%;
+    border-radius: 2rem;
+    margin: 1rem;
+    background-color: rgba(151, 68, 211,0.8);
+    
+}
+#logo{
+    font-size: 300%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    text-decoration: none;
+    padding: 0.1rem 7rem;
+}
+.bdr :hover{
+    cursor: pointer;
+    background-color: white; 
+    border-radius: 15rem;
+    color: black;
+}
+a {
+    
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    text-decoration: none;
+    padding: 0.1rem 7rem;
+}
+.Bar{
+
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    float: left;
+    padding: 2rem;
+}
+.secondtable{
+    height: 15%;
+    width: 97%;
+    margin: 2rem 1rem 1rem 3rem;
+    border-radius: 5rem;
+    background-color: rgba(121, 119, 119, 0.5);
+}
+.Hey{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+    padding: 5rem;
+    text-align: center;
+    font-size: 5rem;
+
+}
+
+.container{
+
+    /* width: 60%; */
+    /* height: 70%; */
+    /* float: left; */
+    margin: 15rem ;
+}
+   
+.firstp{
+    
+    font-family: 'Piedra', cursive;
+    font-size: 400%;
+    /* border: 15px solid rgba(62, 115, 126, 0.8); */
+    background-color:rgba(121, 119, 119, 0.5);
+    border-radius: 1rem;
+    width: 90%;
+    height: 60%;
+    margin: 1rem 2rem 2rem 7rem ;
+    padding-top: 5rem;
+    text-decoration-line: overline;
+    line-height: 160%; 
+    color: indigo;
+    opacity: 1;
+    text-align: center;
+}
+#button1{
+    font-size: 2rem;
+    width: 35%;
+    height: 20%;
+    border-radius: 3rem;
+    margin: 3rem 1rem 1rem 3rem;
+    padding: 1rem;
+}
+.footer {
+    
+    background-color: rgba(23, 36, 39, 0.6);
+    border-right: solid 1rem brown;
+    border-left: solid 1rem brown;
+    border-radius: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+    width: 97%; height: 38%;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    color: seashell;
+}
+#fotr {
+
+    float: center;
+    font-size: 2rem;
+    color: lightblue;
+    font-weight: lighter;
+    font-family: 'Righteous', cursive;
+  }
+
+@media(max-width:520px){
+    .ftr .showoff{
+        float: center;        
+    }
+}
+@media(max-width:450px){
+    
+    .secondtable{
+    margin-left: 10rem;
+    font-size: 30%;      
+    }
+    .firstp{
+        margin-left: 15rem;
+        margin-right: 17rem;
+        font-size: 250%;      
+        width: 95%;
+
+        
+    }
+    .footer{
+        font-size: 10%;
+        margin-left: 17rem;
+        
+        padding-top: 2rem;
+    }
+    #button1{
+        margin-top: 2rem;
+
+        font-size: 200%;
+        height: 17%;
+        
+    }
+}
+
